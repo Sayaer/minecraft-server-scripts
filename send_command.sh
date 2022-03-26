@@ -4,7 +4,7 @@ command=$1
 
 send_command()
 {
-    screen -S mc-getoffmylawn -p 0 -X stuff "$command^M"
+    screen -S mc-getoffmylawn_v2 -p 0 -X stuff "$command^M"
     # echo "attempted to send command to server"
 }
 
