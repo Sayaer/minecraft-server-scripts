@@ -14,5 +14,5 @@ echo "Starting copy to gdrive..."
 
 echo "Copy jobs are complete, restarting minecraft@getoffmylawn service..."
 systemctl start minecraft@getoffmylawn_v
-echo "Backup complete, issuign server reboot."
+echo "Backup complete, issuing server reboot."
 reboot now
